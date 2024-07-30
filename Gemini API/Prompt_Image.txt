@@ -1,0 +1,17 @@
+﻿{
+  "contents": [
+    {
+      "parts": [
+        {
+          "text": "Extract the following invoice details in a JSON format: Supplier name, Invoice number, PO number, Invoice date, Total value, VAT amount. Include confidence scores (0-1) for each extracted value. Structure the JSON output as follows:\n\n```json\n{\n  \"invoiceData\": {\n    \"supplierName\": {\n      \"value\": \"<supplier_name>\",\n      \"confidence\": <confidence_score>\n    },\n    \"invoiceNumber\": {\n      \"value\": \"<invoice_number>\",\n      \"confidence\": <confidence_score>\n    },\n    \"poNumber\": {\n      \"value\": \"<po_number>\",\n      \"confidence\": <confidence_score>\n    },\n    \"invoiceDate\": {\n      \"value\": \"<invoice_date>\",\n      \"confidence\": <confidence_score>\n    },\n    \"totalValue\": {\n      \"value\": \"<total_value>\",\n      \"confidence\": <confidence_score>\n    },\n    \"vatAmount\": {\n      \"value\": \"<vat_amount>\",\n      \"confidence\": <confidence_score>\n    }\n  }\n}\n```\n\nAdhere strictly to the provided JSON structure. Ensure accuracy and completeness of extracted information."
+        },
+        {
+          "inline_data": {
+            "mime_type": "image/jpeg",
+            "data": "{base64}"
+          }
+        }
+      ]
+    }
+  ]
+}
